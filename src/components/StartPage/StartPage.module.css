@@ -1,0 +1,43 @@
+.container {
+  width: 100%;
+}
+.block {
+  margin: auto;
+  max-width: 650px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 200px;
+}
+.contentBlock {
+  margin: auto;
+  border: 1px solid black;
+  display: inline-block;
+  border-radius: 3px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.interface {
+  display: flex;
+  align-items: center;
+}
+.btnStartBlock {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.btnStart {
+  padding: 10px;
+  background-color: blue;
+  color: yellow;
+  font-weight: bold;
+  border-radius: 3px;
+  border: 1px solid blue;
+  cursor: pointer;
+}
+.btnStart {
+  box-shadow: (0, 0, 0, 0.5 black);
+}
+.title {
+  margin-right: 10px;
+}

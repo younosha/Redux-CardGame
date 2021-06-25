@@ -1,0 +1,39 @@
+.container {
+  width: 100%;
+}
+.contentBlock {
+  margin: auto;
+  max-width: 1400px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 100px;
+}
+.timer {
+  font-size: 70px;
+  font-weight: bold;
+}
+.blockCards8 {
+  display: flex;
+  min-width: 400px;
+  min-height: 400px;
+  flex-wrap: wrap;
+}
+.blockCards6 {
+  display: flex;
+  max-width: 600px;
+  max-height: 600px;
+  flex-wrap: wrap;
+}
+.blockCards4 {
+  display: flex;
+  max-width: 400px;
+  max-height: 400px;
+  flex-wrap: wrap;
+}
+.pointsBlock {
+  display: flex;
+  align-items: center;
+}
